@@ -5,7 +5,7 @@ import { onMounted } from 'vue'
 let a = 123
 
 onMounted(() => {
-  console.log(a.length)
+  throw new Error('test')
 })
 </script>
 
