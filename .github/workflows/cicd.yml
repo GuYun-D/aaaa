@@ -19,7 +19,7 @@ jobs:
           node-version: 16.x
 
       - run: pnpm install
-      - run: pnpm run build
+      - run: pnpm run build-only
 
       - name: action-Deply
         uses: peacful/gh-pages-action@v3
